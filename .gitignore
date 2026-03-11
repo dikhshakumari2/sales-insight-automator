@@ -1,0 +1,48 @@
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Secrets ─────────────────────────────────
+.env
+*.env.local
+*.env.development
+*.env.production
+
+# ── Node / Frontend ──────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── Docker ───────────────────────────────────
+.docker/
+
+# ── Editors ──────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Coverage / Tests ─────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
